@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Predator
+comment0.text=\n\ Predators\ include\ Lions\ and\ Tigers.\ They\ hunt\ other\ animals\ for\ food\ and\ require\ this\ food\ to\ survive.\ \n\ They\ eat\ Prey\ (Gazelles\ and\ Zebras).\ All\ the\ functions\ that\ predators\ share\ are\ implemented\ in\ this\ class.\n\n\ @author\ Daniel\ Idowu\ and\ Giulio\ Di\ Zio\n\ @version\ 21/02/2019\n
+comment1.params=field\ location\ maxAge
+comment1.target=Predator(Field,\ Location,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Predator.\ Sets\ the\ location\ and\ randomises\ the\ food\ level\ of\ the\ predators\ as\ they\ are\ created.\n\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ maxAge\ The\ maximum\ age\ it\ can\ reach.\n
+comment2.params=
+comment2.target=int\ getpreyFoodValue()
+comment2.text=\n\ Obtain\ the\ food\ value\ of\ preys.\n\ \n\ @return\ PREY_FOOD_VALUE\ The\ food\ value\ of\ a\ prey.\n
+comment3.params=
+comment3.target=Location\ findFood()
+comment3.text=\n\ Look\ for\ prey\ adjacent\ to\ the\ current\ location.\n\ Only\ the\ first\ live\ prey\ is\ eaten.\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\n
+comment4.params=maxAge\ newPredators\ isDay\ isExtreme\ isFoggy
+comment4.target=void\ act(int,\ java.util.List,\ boolean,\ boolean,\ boolean)
+comment4.text=\n\ Implements\ the\ behaviour\ of\ the\ predators.\ Predators\ get\ older,\ become\ more\ hungry,\ can\ hunt\ and\ procreate.\n\ Predators\ can\ move\ both\ during\ night\ and\ day,\ but\ they\ can\ hunt\ only\ if\ the\ temperature\ is\ not\ extreme\ (over\ \n\ 40\ C),\ it\ is\ not\ foggy\ and\ if\ they\ are\ hungry\ (their\ food\ level\ is\ lower\ or\ equal\ to\ 20).\n\ \n
+comment5.params=
+comment5.target=void\ incrementHunger()
+comment5.text=\n\ Make\ this\ predator\ more\ hungry.\ This\ could\ result\ in\ the\ predator's\ death.\n
+numComments=6

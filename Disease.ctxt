@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\n\ This\ class\ describes\ the\ charateristics\ of\ a\ disease.\ A\ disease\ can\ be\ critical\ (meaning\ that\ an\ animal\ will\ die\ after\n\ 10\ days)\ or\ non-critical\ (meaning\ that\ the\ animal\ will\ only\ stay\ still\ for\ 5\ days).\n\n\ @author\ Giulio\ Di\ Zio\ and\ Daniel\ Idowu\n\ @version\ 21/02/2019\n
+comment1.params=
+comment1.target=Disease()
+comment1.text=\n\ \n
+comment2.params=
+comment2.target=void\ decreaseDaysOfIllness()
+comment2.text=\n\ Decreases\ the\ days\ the\ animal\ will\ be\ ill\ for\ by\ one.\n
+comment3.params=
+comment3.target=int\ getDaysOfIllness()
+comment3.text=\n\ @return\ daysOfIllness\ The\ days\ the\ animal\ will\ be\ ill\ for\ by\ one.\n
+comment4.params=
+comment4.target=boolean\ getIsCritical()
+comment4.text=\n\ return\ isCritical\ True\ if\ the\ disease\ is\ critical\ (fatal).\n
+numComments=5

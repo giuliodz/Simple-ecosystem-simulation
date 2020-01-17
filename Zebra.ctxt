@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Zebra
+comment0.text=\n\ A\ simple\ model\ of\ a\ zebra.\n\ zebras\ grow,\ move,\ breed,\ and\ die.\ They\ can\ have\ children\ but\ only\ up\ to\ a\ maximum\ amount.\n\ \n\ @author\ Giulio\ Di\ Zio\ and\ Daniel\ Idowu\n\ @version\ 21/02/2019\n
+comment1.params=field\ location
+comment1.target=Zebra(Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ zebra.\ A\ zebra\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ zebra\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=
+comment2.target=int\ getMaxAge()
+comment2.text=\n\ Obtain\ max\ age\ of\ zebra.\n\ \n\ @return\ MAX_AGE\ The\ age\ to\ which\ a\ zebra\ can\ live.\n
+comment3.params=
+comment3.target=int\ getBreedingAge()
+comment3.text=\n\ Obtain\ breeding\ age\ of\ zebra.\n\ \n\ @return\ BREEDIN_AGE\ The\ age\ at\ which\ a\ zebra\ can\ start\ to\ breed.\n
+comment4.params=
+comment4.target=double\ getBreedingProbability()
+comment4.text=\n\ Obtain\ breeding\ probability\ of\ zebra.\n\ \n\ @return\ BREEDING_PROBABILITY\ The\ likelihood\ of\ a\ zebra\ breeding.\n
+comment5.params=newZebras
+comment5.target=void\ giveBirth(java.util.List)
+comment5.text=\n\ Check\ whether\ or\ not\ this\ zebra\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ \n\ @param\ newZebras\ A\ list\ to\ add\ newly\ born\ zebras.\n
+comment6.params=
+comment6.target=boolean\ differentGenders()
+comment6.text=\n\ Check\ if\ the\ queried\ zebra\ and\ the\ one\ next\ to\ it\ (if\ there'\ s\ any)\ are\ of\ different\ genders\n\ \n\ @return\ True\ if\ the\ two\ animals\ have\ different\ genders.\n
+comment7.params=breedingAge
+comment7.target=boolean\ canBreed(int)
+comment7.text=\n\ Check\ if\ a\ zebra\ can\ breed.\n\ \n\ @param\ breedingAge\ The\ age\ the\ animal\ can\ breed\ at.\n\ @return\ True\ if\ it\ age\ is\ greater\ or\ equal\ to\ the\ breedingAge\ and\n\ the\ zebra\ next\ to\ it\ is\ of\ different\ gender.\n\ \n
+numComments=8

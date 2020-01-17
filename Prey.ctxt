@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Prey
+comment0.text=\n\ Class\ of\ Prey.\n\ Prey\ eat\ plants,\ grow,\ breed\ and\ die.\n\ They\ are\ also\ eaten\ by\ predators\n\ \n\ @author\ Giulio\ Di\ Zio\ and\ Daniel\ Idowu\n\ @version\ 21/02/2019\n
+comment1.params=field\ location\ maxAge
+comment1.target=Prey(Field,\ Location,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Prey\n\ \n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n\ @param\ maxAge\ The\ maximum\ age\ it\ can\ reach.\n
+comment2.params=
+comment2.target=Location\ findFood()
+comment2.text=\n\ Look\ for\ plants\ adjacent\ to\ the\ current\ location\ the\ animal\ is\ at.\n\ Only\ the\ first\ live\ plant\ is\ eaten.\n\ If\ the\ plant\ was\ infected\ the\ prey\ wil\ get\ its\ same\ disease.\n\ @return\ Where\ food\ was\ found,\ or\ null\ if\ it\ wasn't.\n
+comment3.params=maxAge\ newPrey\ isDay
+comment3.target=void\ act(int,\ java.util.List,\ boolean)
+comment3.text=\n\ Make\ the\ prey\ act.\ It\ will\ become\ older\ and\ be\ more\ hungry\ (decreasing\ its\ food\ level).\n\ It\ will\ also\ be\ able\ to\ eat\ plants,\ move,\ and\ procreate\ but\ only\ under\ certain\ conditions.\n\ It\ might\ also\ be\ the\ case\ that\ a\ prey\ has\ to\ die\ (for\ example\ if\ it\ got\ too\ old).\n\ \n\ @param\ maxAge\ The\ maximum\ age\ the\ prey\ can\ reach.\n\ @param\ newPrey\ A\ list\ of\ newly\ born\ preys.\n\ @param\ isDay\ True\ if\ it's\ day.\n
+comment4.params=
+comment4.target=void\ incrementHunger()
+comment4.text=\n\ Make\ this\ prey\ more\ hungry.\ This\ could\ result\ in\ the\ prey's\ death.\n
+numComments=5
